@@ -40,6 +40,7 @@ img {
     text-decoration: none;
     padding: 13px 20px;
     border-radius: 30px;
+    margin-top: 10px;
 }
 
 /*  Main Container  */
@@ -95,6 +96,8 @@ img {
     height: 100%;
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 .nav_title {
@@ -134,7 +137,6 @@ img {
     display: var(--show, none);
 }
 
-
 /*  About  */
 .about {
     background-color: white;
@@ -154,6 +156,7 @@ img {
 .about_paragraph {
     line-height: 1.7;
     margin-bottom: 15px;
+    text-align: justify;
 }
 
 .about_picture {
@@ -166,6 +169,12 @@ img {
     border-radius: 50%;
 }
 
+#about_rrss{
+    /*padding: 10%;*/
+    border-top: 1px solid white;
+    padding: 20px;
+    margin-top: 40px;
+}
 
 /*  Skills  */
 
@@ -191,6 +200,10 @@ img {
     line-height: 1.7;
 }
 
+/*  Contact-us  */
+.contact-us .container {
+    padding: 0;
+}
 
 /*  Footer  */
 
@@ -199,7 +212,7 @@ footer {
 }
 
 .footer_container {
-    display: flex;
+    /*display: flex;*/
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid white;
@@ -227,75 +240,75 @@ footer {
 
 .footer_icons {
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 .footer_img {
     width: 40px;
 }
 
+.contact-us .container {
+    padding: 0;
+}
+
 .footer_form {
-    width: 100%;
-    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .footer_inputs {
-    margin-top: 10px;
     display: flex;
-    overflow: hidden;
+    flex-direction: column;
+    gap: 15px;
 }
 
-.footer_input {
-    background-color: #fff;
-    height: 50px;
-    display: block;
-    padding-left: 10px;
+.input-group {
+    display: flex;
+    gap: 16px;
+}
+
+.input-group .footer_input {
+    flex: 1;
+}
+
+.footer_input,
+.footer_message {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
     border-radius: 6px;
-    font-size: 1rem;
-    outline: none;
+    border: 1px solid #ccc;
+}
+
+.footer_message {
+    height: 150px;
+}
+
+.footer_submit {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #8fbc8f;
     border: none;
-    margin-right: 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
 }
 
 .footer_copyright {
     --padding-container: 30px 0;
     text-align: center;
     font-weight: 300;
-    margin-top: 50px;
+    margin: 12px;
     line-height: 1.5;
     margin-bottom: 0;
-}
-
-.footer_message {
-    resize: none;
-
-    background-color: #fff;
-    height: 200px;
-    width: 400px;
-    display: block;
-    padding-left: 10px;
-    border-radius: 6px;
-    font-size: 1rem;
-    outline: none;
-    border: none;
-    margin-right: 16px;
-}
-
-.footer_submit {
-    margin-left: auto;
-    display: inline-block;
-    height: 100px;
-    padding: 0 20px ;
-    background-color: #8fbc8f;
-    border: none;
-    font-size: 1rem;
-    color: #fff;
-    border-radius: 6px;
-    cursor: pointer;
 }
 
 /*  Media query's  */
 
 @media (max-width: 800px) {
+
+    /*  Nav  */
     .nav_menu {
         display: block;
     }
@@ -335,6 +348,7 @@ footer {
         font-size: 2.5rem;
     }
 
+    /*  Skills  */
     .skills_main {
         gap: 2em;
     }
@@ -346,11 +360,20 @@ footer {
         text-align: center;
     }
 
+    .input-group {
+        flex-direction: column;
+    }
+
+    .footer_submit {
+        align-self: center;
+    }
+
     .about_picture {
         grid-row: 1/2;
         justify-self: center;
     }
 
+    /*  Footer  */
     .footer_container {
         flex-wrap: wrap;
     }
@@ -367,6 +390,15 @@ footer {
 
     .footer_input{
         flex: 1;
+    }
+
+    .footer_copyright {
+        --padding-container: 30px 0;
+        text-align: center;
+        font-weight: 300;
+        margin-top: 50px;
+        line-height: 1.5;
+        margin-bottom: 0;
     }
 }
 
@@ -404,5 +436,18 @@ footer {
     .footer_submit {
         margin-right: auto;
         margin-left: 0;
+    }
+
+    /*  Prueba jmc  */
+    div {
+        display: grid;
+        height: 25em;
+        place-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+    canvas {
+        margin: 10px;
+        background-color: #ced5d8;
     }
 }

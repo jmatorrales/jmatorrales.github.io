@@ -1,27 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Jordi Matorrales | Programador y analista de datos </title>
-    <link rel="icon" href="https://jmatorrales.github.io/image/instagram.svg" type="image/x-icon">
-    <link rel="stylesheet" href="https://jmatorrales.github.io/css/normalize.css">
-    <link rel="stylesheet" href="https://jmatorrales.github.io/css/style.css">
+    <link rel="icon" href="image/instagram.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <meta name="theme-color" content="#FFF">
 
     <!-- Primary Meta Tags -->
     <meta name="title" content="Jordi Matorrales | Programador y analista de datos ">
     <meta name="description" content="Mi nombre es Jordi Matorrales, soy desarollador de backend, Android y analista de datos.">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://jmatorrales.github.io/">
-    <meta property="twitter:title" content="Jordi Matorrales | Programador y analista de datos ">
-    <meta property="twitter:description" content="Mi nombre es Jordi Matorrales, soy desarollador de backend, Android y analista de datos.">
-    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 </head>
 <body>
 <header class="main">
+    <!--  NAV  -->
     <nav class="nav container">
         <div class="nav_logo">
             <h2 class="nav_title">Jordi Matorrales</h2>
@@ -31,63 +26,79 @@
                 <a href="#" class="nav_links">Home</a>
             </li>
             <li class="nav_items">
-                <a href="#" class="nav_links">About me</a>
+                <a href="#about" class="nav_links">Sobre mi</a>
             </li>
             <li class="nav_items">
                 <a href="#" class="nav_links">Skills</a>
             </li>
             <li class="nav_items">
-                <a href="#" class="nav_links">Contact me</a>
+                <a href="#" class="nav_links">Proyectos</a>
             </li>
-            <img src="https://jmatorrales.github.io/image/close.svg" alt="close nav" class="nav_close"/>
+            <li class="nav_items">
+                <a href="#" class="nav_links">Contacto</a>
+            </li>
+            <img src="image/close.svg" alt="close nav" class="nav_close"/>
         </ul>
         <div class="nav_menu">
-            <img src="https://jmatorrales.github.io/image/menu.svg" alt="menu nav" class="nav_img"/>
+            <img src="image/menu.svg" alt="menu nav" class="nav_img"/>
         </div>
     </nav>
     <section class="main_container container">
         <h1 class="main_title">Jordi Matorrales</h1>
-        <p class="main_paragraph">Data Analysts junior</p>
-        <a href="#" class="cta">About me</a>
+        <p class="main_paragraph">Software Developer junior</p>
+        <a href="#about" class="cta">Sobre mi</a>
     </section>
 </header>
 <main>
     <!--  About me  -->
-    <section class="about">
+    <section id="about" class="about">
         <div class="about_container container">
             <figure class="about_picture">
-                <img src="https://jmatorrales.github.io/image/perfil_jmatorrales.PNG" alt="Imagen Perfil Jordi Matorrales" class="about_img">
+                <img src="image/user_profile.JPEG"
+                     alt="Imagen Perfil Jordi Matorrales" class="about_img">
             </figure>
             <div class="about_text">
-                <h2 class="subtitle">A digital way to go</h2>
+                <h2 class="subtitle">Mi camino digital</h2>
                 <p class="about_paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum ipsum nec tellus
-                    luctus rhoncus. Maecenas at ante viverra, ultricies augue ac, malesuada elit. Donec accumsan, mi sit
-                    amet luctus lobortis, elit lectus molestie augue, at hendrerit urna nunc in nulla. Pellentesque vel
-                    lacus purus. Etiam tempus tellus sed justo mollis semper. Integer aliquam justo eget mauris
-                    consectetur, nec sodales nunc iaculis. Nunc mattis sagittis dui, ut facilisis velit rutrum vitae.
-                    Mauris ut scelerisque tellus, rhoncus feugiat metus. Sed fringilla dolor dui, malesuada auctor ex
-                    aliquam sit amet. Curabitur bibendum elementum neque ac posuere. In vitae blandit lectus, quis
-                    pretium leo. Nunc vel ipsum nec felis tincidunt pulvinar sit amet sit amet tellus. Nam imperdiet nec
-                    lacus vulputate ultrices.
+                    Mi nombre es Jordi Matorrales y soy un tecnologo con experiencia en desarrollo de aplicaciones y big data.
+                    He trabajado en varias empresas, perfeccionando mis habilidades técnicas y ayudando a optimizar los
+                    procesos y aportar nueva tecnología. En este momento, estoy en la universidad estudiando Ingeniería Informática,
+                    aprovechando mis estudios previos en desarrollo de aplicaciones multimedia y creación de animación/videojuegos.
+                    Mi formación me ha dado una sólida comprensión de múltiples lenguajes de programación,
+                    así como de diversas herramientas y sus tecnologías para su funcionamiento.
                 </p>
-                <a href="#" class="cta">Conoce mi CV</a>
+                <!--href="doc.pdf" download="CV_JordiMatorrales.pdf"--><a  class="cta">Conoce mi CV</a>
+                <div id="about_rrss">
+                    <a href="https://github.com/jmatorrales" class="footer_icons" target="_blank">
+                        <img src="https://jmatorrales.github.io/image/github.svg" class="footer_img">
+                    </a>
+                    <a href="https://www.instagram.com/jordi_in_the_box" class="footer_icons" target="_blank">
+                        <img src="https://jmatorrales.github.io/image/instagram.svg" class="footer_img">
+                    </a>
+                    <a href="https://www.linkedin.com/in/jordi-matorrales" class="footer_icons" target="_blank">
+                        <img src="https://jmatorrales.github.io/image/linkedin.svg" class="footer_img">
+                    </a>
+                    <a href="https://x.com/jmatorralesc" class="footer_icons" target="_blank">
+                        <img src="https://jmatorrales.github.io/image/twitter.svg" class="footer_img">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
     <!--  END  -->
     <!--  Skills  -->
     <section class="container skills">
-        <h2 class="subtitle">My dreams can be true</h2>
+        <h2 class="subtitle">El camino que sigo</h2>
         <div class="skills_main">
             <article class="skills_mini">
-                <p class="skills_paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum ipsum nec tellus
-                    luctus rhoncus. Maecenas at ante viverra, ultricies augue ac, malesuada elit. Donec accumsan, mi sit
-                    amet luctus lobortis, elit lectus molestie augue, at hendrerit urna nunc in nulla. Pellentesque vel
-                    lacus purus. Etiam tempus tellus sed justo mollis semper. Integer aliquam justo eget mauris
-                    consectetur, nec sodales nunc iaculis.
-                </p>
+<!--                <p class="skills_paragraph">-->
+<!--                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum ipsum nec tellus-->
+<!--                    luctus rhoncus. Maecenas at ante viverra, ultricies augue ac, malesuada elit. Donec accumsan, mi sit-->
+<!--                    amet luctus lobortis, elit lectus molestie augue, at hendrerit urna nunc in nulla. Pellentesque vel-->
+<!--                    lacus purus. Etiam tempus tellus sed justo mollis semper. Integer aliquam justo eget mauris-->
+<!--                    consectetur, nec sodales nunc iaculis.-->
+<!--                </p>-->
+                <canvas id="back" width="100" height="100"></canvas>
             </article>
             <article class="skills_mini">
                 <p class="skills_paragraph">
@@ -101,44 +112,34 @@
         </div>
     </section>
     <!--  END  -->
-    <!--  Contact us  -->
-    <section class="contact-us">
-        <div class="container">
-
-        </div>
-    </section>
 </main>
 <footer>
     <section class="footer_container container">
         <nav class="nav footer_nav">
-            <h2 class="footer_title">Contact me</h2>
-            <p class="footer_paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum ipsum nec tellus
-                luctus rhoncus. Maecenas at ante viverra, ultricies augue ac, malesuada elit. Donec accumsan, mi sit
-                amet luctus lobortis, elit lectus molestie augue, at hendrerit urna nunc in nulla.
-            </p>
-            <div>
-                <a href="#" class="footer_icons"><img src="https://jmatorrales.github.io/image/github.svg" class="footer_img"></a>
-                <a href="#" class="footer_icons"><img src="https://jmatorrales.github.io/image/instagram.svg" class="footer_img"></a>
-                <a href="#" class="footer_icons"><img src="https://jmatorrales.github.io/image/linkedin.svg" class="footer_img"></a>
-                <a href="#" class="footer_icons"><img src="https://jmatorrales.github.io/image/twitter.svg" class="footer_img"></a>
+            <!--            <p class="footer_paragraph">-->
+            <!--                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum ipsum nec tellus-->
+            <!--                luctus rhoncus. Maecenas at ante viverra, ultricies augue ac, malesuada elit. Donec accumsan, mi sit-->
+            <!--                amet luctus lobortis, elit lectus molestie augue, at hendrerit urna nunc in nulla.-->
+            <!--            </p>-->
+            <div class="footer_contact">
+                <a href="https://github.com/jmatorrales" class="footer_icons" target="_blank">
+                    <img src="image/github.svg" class="footer_img">
+                </a>
+                <a href="https://www.instagram.com/jordi_in_the_box" class="footer_icons" target="_blank">
+                    <img src="image/instagram.svg" class="footer_img">
+                </a>
+                <a href="https://www.linkedin.com/in/jordi-matorrales" class="footer_icons" target="_blank">
+                    <img src="image/linkedin.svg" class="footer_img">
+                </a>
+                <a href="https://x.com/jmatorralesc" class="footer_icons" target="_blank">
+                    <img src="image/twitter.svg" class="footer_img">
+                </a>
             </div>
         </nav>
     </section>
-    <!--  Formulario  -->
-    <section>
-        <form class="footer_form" action="https://formspree.io/f/mwkjkbpv" method="POST">
-            <div class="footer_inputs">
-                <input type="text" placeholder="Name" class="footer_input" name="name" required>
-                <input type="email" placeholder="Email" class="footer_input" name="email" required>
-                <input type="text" placeholder="Subject" class="footer_input" name="subject" required>
-                <textarea name="message" class="footer_message" required></textarea>
-                <input type="submit" value="Send" class="footer_submit">
-            </div>
-        </form>
-    </section>
     <h3 class="footer_copyright">Derechos reservados &#174; Jordi Matorrales</h3>
 </footer>
-<script src="https://jmatorrales.github.io/js/menu.js"/>
+<script src="js/menu.js"></script>
+<script src="js/skills.js"></script>
 </body>
 </html>
