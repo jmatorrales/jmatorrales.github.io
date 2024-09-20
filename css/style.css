@@ -179,7 +179,7 @@ img {
     display: grid;
     width: 90%;
     margin: 0 auto;
-    gap: 10em;
+    gap: 1em;
     overflow: hidden;
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
 }
