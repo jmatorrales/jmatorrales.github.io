@@ -179,7 +179,7 @@ img {
     display: grid;
     width: 90%;
     margin: 0 auto;
-    gap: 1em;
+    gap: 2em;
     overflow: hidden;
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
 }
@@ -255,3 +255,14 @@ img {
     transform: translateX(0);
     display: inherit;
 }
+
+
+/* FOOTER */
+
+/* FORM */
+.contact-container{
+    padding: 20px;
+    background-color: #ced5d8;
+    text-align: center;
+}
+
