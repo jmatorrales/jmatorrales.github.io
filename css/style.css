@@ -201,10 +201,10 @@ img {
 /* Proyectos  TODO: falta ajustar que las imagenes esten centradas y al pasar el raton encima moverse a un lado */
 /* https://www.sitepoint.com/hide-elements-in-css/ */
 
-#projects{
+/*#projects{
     padding: 20px;
     background-color: #edb97a;
-}
+}*/
 
 /*.slider-container {*/
 /*    display: flex;*/
@@ -214,12 +214,13 @@ img {
 /*}*/
 
 /* Estilos generales */
+/*
 .slider-container {
     display: grid;
-    grid-template-columns: repeat(2, auto); /* Dos columnas con ancho automático */
-    justify-content: center; /* Centramos las columnas en el contenedor */
-    gap: 50px; /* Separación entre las imágenes */
-}
+    grid-template-columns: repeat(2, auto);*/ /* Dos columnas con ancho automático */
+    /*justify-content: center; /* Centramos las columnas en el contenedor */
+    /*gap: 50px; /* Separación entre las imágenes */
+/*}
 
 .slider-item {
     display: flex;
@@ -228,15 +229,15 @@ img {
     overflow: hidden;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-}
+}*/
 
-.slider-item img {
+/*.slider-item img {
     width: 100%;
     max-width: 300px; /* Tamaño máximo para la imagen */
-    transition: transform 0.3s ease-in-out;
-}
+    /*transition: transform 0.3s ease-in-out;
+}*/
 
-.slider-item:hover img {
+/*.slider-item:hover img {
     transform: scale(1.1);
 }
 
@@ -254,7 +255,7 @@ img {
     opacity: 1;
     transform: translateX(0);
     display: inherit;
-}
+}*/
 
 
 /* FOOTER */
