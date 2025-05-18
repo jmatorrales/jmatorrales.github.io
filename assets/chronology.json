@@ -1,0 +1,38 @@
+[
+  {
+    "image": "../img/logo/logo_pimec.jpeg",
+    "title": "Front End Developer",
+    "placeDate": "Pimec | 2024",
+    "description": "Formación de desarrollo Front End de plataformas internas dede las bases del desarrollo web hasta tecnologías modernas como Angular. Integración de servicios REST, optimización de componentes y adaptación responsiva de interfaces para mejorar la experiencia de usuario."
+  },
+  {
+    "image": "../img/logo/logo_uoc.png",
+    "title": "Grado Ingeniería informatica",
+    "placeDate": "Universidad Oberta de Catalunya | 2023 - Actualidad",
+    "description": "Formación en fundamentos de la ingeniería informática, abarcando programación avanzada, estructuras de datos, bases de datos, sistemas operativos, redes y metodologías de desarrollo de software."
+  },
+  {
+    "image": "../img/logo/logo_airplane_solutions.jpeg",
+    "title": "BigData engineer",
+    "placeDate": "Airplane Solutions | 2022 - 2023",
+    "description": "Desarrollo e implementación de pipelines de datos utilizando Python. Gestión de bases de datos relacionales y NoSQL. Automatización de procesos con Azure DevOps, despliegue de servicios en contenedores, visualización de datos con Power BI y trabajo en entornos cloud sobre Azure."
+  },
+  {
+    "image": "../img/logo/logo_institut_lestatut.jpeg",
+    "title": "Grado Superior Desarrollo de Aplicaciones Multimedia",
+    "placeDate": "IES Estatut | 2020 - 2022",
+    "description": "Formación técnica en programación de aplicaciones multimedia, incluyendo desarrollo de software, bases de datos, diseño de interfaces y proyectos orientados a entornos web y móviles."
+  },
+  {
+    "image": "../img/logo/logo_tai.png",
+    "title": "Software Developer",
+    "placeDate": "TAI Smart Factory | 2021 - 2022",
+    "description": "Desarrollo de aplicaciones internas para automatización industrial. Participación en el ciclo completo de software: análisis, diseño, implementación y despliegue, trabajando con .NET Core, C#, DevExpress y bases de datos SQL. Mantenimiento evolutivo y adaptación de los programas a medida según las necesidades específicas de cada cliente."
+  },
+  {
+    "image": "../img/logo/logo_espai.png",
+    "title": "Animación y creación de videojuegos",
+    "placeDate": "Escola Espai | 2019 - 2021",
+    "description": "Estudios enfocados en el diseño de videojuegos, animación digital y desarrollo de entornos interactivos, utilizando herramientas como Unity y técnicas de programación en C#."
+  }
+]
